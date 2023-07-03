@@ -1,0 +1,159 @@
+YEP_CoreEngine: Yanfly Engine Plugins - Core Engine is made for RPG Maker MV. This plugin
+functions primarily to fix bugs and to allow the user more control over RPG
+Maker MV's various features, such as the screen resolution, font, window
+colors, and more.
+
+YEP_AutoPassiveStates: Passive states are states that are automatically active. You can think of
+them as an extension of traits but with more flexibility. They will always
+be there as long as the actor or enemy has auto passive state notetags.
+
+YEP_BaseTroopEvents: For all the eventers out there who love to customize their battles through
+custom event pages, you can now save yourself some time by drawing all the
+event pages from a base troop event to occur in every fight. All of the
+events will be present in every single battle.
+
+YEP_BattleAICore: RPG Maker MV's default enemy AI is a bit lackluster even if you managed to
+have it based completely on the rates and switches. There is no way to
+control the way the enemy chooses targets by default, nor are the conditions
+imposed by the default editor enough to satisfy the majority of checks. This
+plugin enables you to set a priority list of conditions, actions, and the
+targets selected for the enemy to go through before making a decision on how
+to participate in battle.
+
+These conditions contain all of the default editor's conditions plus more,
+such as determining the parameter values of a target, whether or not a state
+exists on a target, the target's elemental weakness (or resistances), and
+more before deciding an action. Furthermore, you can set an AI level for the
+enemies to make them more consistent in the way they go about fighting your
+players or more random in the way the enemies treat the priority list, too.
+
+YEP_BattleEngineCore: This plugin alters the various aspects of the default battle system,
+allowing it to be more streamlined like most modern RPG's and less clunky
+like older RPG's. This ranges from choosing what text will appear in the
+battle log window at the top and how it will be displayed.
+
+YEP_BuffsStatesCore: If you are using YEP_BattleEngineCore.js, please this plugin under
+YEP_BattleEngineCore in the plugin list for the best effect.
+
+Alter the basic mechanics behind buffs and states that aren't adjustable
+within the RPG Maker editor. Such mechanics include altering the maximum
+number of times buffs can stack, changing the turns remaining on buffs and
+states, and the rules involved when reapplying states.
+
+A turn indicator has been added to show the amount of turns remaining on
+buffs, debuffs, and states. Buffs and debuffs will operate off the plugin
+parameter settings while states can operate on individual settings if you
+choose for them to have unique settings.
+
+Furthermore, a lot of Lunatic Mode options are added with this plugin to
+allow those with JavaScript proficiency maximum control with states and any
+unique effects that follow.
+
+YEP_ElementCore: Elemental control in RPG Maker MV is pretty lacking. The calculation of how
+multiple elements are handled aren't very clear nor are they too intuitive
+when it comes to certain aspects. This plugin also gives way to skills and
+items having more than one element, battlers being able to absorb, reflect,
+amplify elemental damage, and more!
+
+* Note: If you are using the Battle Engine Core, place this plugin under the
+Battle Engine Core in the plugin list for additional features.
+
+* Note: If you are using the Damage Core, place this plugin underneath the
+Damage Core plugin in the list for maximum compatibility.
+
+YEP_EquipCore: This plugin alters various aspects regarding equipment handling.
+
+YEP_EventChasePlayer: This plugin allows you to make events that will chase the player or flee
+from the player when the player enters within range of the event or when the
+event sees the player.
+
+YEP_FpsSynchOption: RPG Maker MV is constructed in a way where each update to its engine is done
+once per frame update. While this is normally fine, as many players view the
+game through 60 fps, some players experience the game differently as their
+hardware may run at higher than 60 fps.
+
+When RPG Maker MV version 1.1.0 is implemented, it implemented Galenmereth's
+fluid timestep, which forces the game to always play as if it is 60 fps. In
+practice, this is great for everybody because players that experience more
+60 fps will be able to play the game as if it was 60 fps.
+
+However, there comes a problem when a player's hardware isn't strong enough
+to support RPG Maker MV natively at 60 fps (such as the case with older
+computers, or weaker mobile devices) or if the player is using video
+recording software that goes below 60 fps. The game will appear laggy and
+jumping without good response rates from input commands or possibly even
+make the player miss out on certain visual frame updates.
+
+This plugin places a setting in the Options menu to enable or disable the
+fluid timestep addition and utilize the former RPG Maker MV engine updating
+function. This way, players will have the option of using fluid timesteps or
+opting to not use it instead of forcing it on everybody who may not be able
+to handle it.
+
+YEP_ItemCore: This plugin makes a couple of main changes to your game and the way items
+are handled to allow a base core for future plugins.
+
+1. Independent Items
+If you choose to have maximum limit on your items, weapons, and/or armors,
+those items will become independent and have their own individual stats and
+whatnot. Independent items are capable of being upgraded, altered, modified,
+etc. and retain those changed properties independent of other items of the
+same type. Items without a maximum limit (aka 0), will continue working as
+they normally did in RPG Maker MV.
+
+2. New Scene_Item
+The item scene has been revamped to look a little bit different. With the
+new layout, the item list is no longer two columns, but one. Added are a few
+more windows, such as the item status window (which displays basic item
+information), an item information window (which shows information applied to
+the item via upgrades, etc.), and an item action window, which appears when
+you select an item and it will ask you if you wish to Use the item or any
+action added via plugins (such as upgrading the item). If you wish to not
+use this revamp, you can disable it from the parameters.
+
+3. Random Variance
+Newly acquired items that aren't from shop can be given randomized stats to
+a small degree for items that are independent. Items can be above the stock
+value or below the stock value by the variance value. If you wish for an
+item to not have a variance value, you can use a notetag to set the variance
+value to 0. If you wish for all of your items to not have a variance value,
+you can set the parameter to 0.
+
+Note: During battle test, independent items are disabled.
+
+YEP_KeyboardConfig: This plugin allows players to change their keyboard configuration from the
+in-game Options menu provided that they're using a computer to play the
+game and not from a mobile device. The "Keyboard Config" option will send
+the player to a different screen where they can assign actions to each of
+the allowed keys on the keyboard.
+
+Certain measures are made to prevent the player from locking himself or
+herself in the configuration screen. These measures are that the Enter keys
+and arrow keys cannot be changed. Almost every other key is capable of being
+changed to something of the player's liking.
+
+Note: If you are using Button Common Events, place this plugin beneath
+Button Common Events in the plugin parameter list.
+
+YEP_LevelUpGrowthEffects: This plugin lets you create items that allow actor growth upon leveling up
+due to the actor, the equipment worn, class, learned skills, or any states
+applied to the actor upon leveling up. Growth options include increasing
+basic parameters, learning new skills, turning switches on/off, full
+recovery, and for those experienced with JavaScript, any kind of custom
+effect that can be done using code.
+
+YEP_MainMenuManager: For those who wish to alter the various aspects of the main menu commands
+without needing to touch the source code can use this plugin to do so.
+Although this plugin mostly ports the menu creation process to the Plugin
+Manager parameters, it allows for a cleaner way to handle the menu command
+management process.
+
+
+
+
+
+
+
+
+
+
