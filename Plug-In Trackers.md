@@ -3,16 +3,16 @@ functions primarily to fix bugs and to allow the user more control over RPG
 Maker MV's various features, such as the screen resolution, font, window
 colors, and more.
 
-YEP_AutoPassiveStates: Passive states are states that are automatically active. You can think of
+<b>YEP_AutoPassiveStates:</b> Passive states are states that are automatically active. You can think of
 them as an extension of traits but with more flexibility. They will always
 be there as long as the actor or enemy has auto passive state notetags.
 
-YEP_BaseTroopEvents: For all the eventers out there who love to customize their battles through
+<b>YEP_BaseTroopEvents:</b> For all the eventers out there who love to customize their battles through
 custom event pages, you can now save yourself some time by drawing all the
 event pages from a base troop event to occur in every fight. All of the
 events will be present in every single battle.
 
-YEP_BattleAICore: RPG Maker MV's default enemy AI is a bit lackluster even if you managed to
+<b>YEP_BattleAICore:</b> RPG Maker MV's default enemy AI is a bit lackluster even if you managed to
 have it based completely on the rates and switches. There is no way to
 control the way the enemy chooses targets by default, nor are the conditions
 imposed by the default editor enough to satisfy the majority of checks. This
@@ -27,12 +27,12 @@ more before deciding an action. Furthermore, you can set an AI level for the
 enemies to make them more consistent in the way they go about fighting your
 players or more random in the way the enemies treat the priority list, too.
 
-YEP_BattleEngineCore: This plugin alters the various aspects of the default battle system,
+<b>YEP_BattleEngineCore:</b> This plugin alters the various aspects of the default battle system,
 allowing it to be more streamlined like most modern RPG's and less clunky
 like older RPG's. This ranges from choosing what text will appear in the
 battle log window at the top and how it will be displayed.
 
-YEP_BuffsStatesCore: If you are using YEP_BattleEngineCore.js, please this plugin under
+<b>YEP_BuffsStatesCore:</b> If you are using YEP_BattleEngineCore.js, please this plugin under
 YEP_BattleEngineCore in the plugin list for the best effect.
 
 Alter the basic mechanics behind buffs and states that aren't adjustable
@@ -49,7 +49,7 @@ Furthermore, a lot of Lunatic Mode options are added with this plugin to
 allow those with JavaScript proficiency maximum control with states and any
 unique effects that follow.
 
-YEP_ElementCore: Elemental control in RPG Maker MV is pretty lacking. The calculation of how
+<b>YEP_ElementCore:</b> Elemental control in RPG Maker MV is pretty lacking. The calculation of how
 multiple elements are handled aren't very clear nor are they too intuitive
 when it comes to certain aspects. This plugin also gives way to skills and
 items having more than one element, battlers being able to absorb, reflect,
@@ -61,13 +61,13 @@ Battle Engine Core in the plugin list for additional features.
 * Note: If you are using the Damage Core, place this plugin underneath the
 Damage Core plugin in the list for maximum compatibility.
 
-YEP_EquipCore: This plugin alters various aspects regarding equipment handling.
+<b>YEP_EquipCore:</b> This plugin alters various aspects regarding equipment handling.
 
-YEP_EventChasePlayer: This plugin allows you to make events that will chase the player or flee
+<b>YEP_EventChasePlayer:</b> This plugin allows you to make events that will chase the player or flee
 from the player when the player enters within range of the event or when the
 event sees the player.
 
-YEP_FpsSynchOption: RPG Maker MV is constructed in a way where each update to its engine is done
+<b>YEP_FpsSynchOption:</b> RPG Maker MV is constructed in a way where each update to its engine is done
 once per frame update. While this is normally fine, as many players view the
 game through 60 fps, some players experience the game differently as their
 hardware may run at higher than 60 fps.
@@ -90,7 +90,7 @@ function. This way, players will have the option of using fluid timesteps or
 opting to not use it instead of forcing it on everybody who may not be able
 to handle it.
 
-YEP_ItemCore: This plugin makes a couple of main changes to your game and the way items
+<b>YEP_ItemCore:</b> This plugin makes a couple of main changes to your game and the way items
 are handled to allow a base core for future plugins.
 
 1. Independent Items
@@ -121,7 +121,7 @@ you can set the parameter to 0.
 
 Note: During battle test, independent items are disabled.
 
-YEP_KeyboardConfig: This plugin allows players to change their keyboard configuration from the
+<b>YEP_KeyboardConfig:</b> This plugin allows players to change their keyboard configuration from the
 in-game Options menu provided that they're using a computer to play the
 game and not from a mobile device. The "Keyboard Config" option will send
 the player to a different screen where they can assign actions to each of
@@ -135,45 +135,45 @@ changed to something of the player's liking.
 Note: If you are using Button Common Events, place this plugin beneath
 Button Common Events in the plugin parameter list.
 
-YEP_LevelUpGrowthEffects: This plugin lets you create items that allow actor growth upon leveling up
+<b>YEP_LevelUpGrowthEffects: </b>This plugin lets you create items that allow actor growth upon leveling up
 due to the actor, the equipment worn, class, learned skills, or any states
 applied to the actor upon leveling up. Growth options include increasing
 basic parameters, learning new skills, turning switches on/off, full
 recovery, and for those experienced with JavaScript, any kind of custom
 effect that can be done using code.
 
-YEP_MainMenuManager: For those who wish to alter the various aspects of the main menu commands
+<b>YEP_MainMenuManager:</b> For those who wish to alter the various aspects of the main menu commands
 without needing to touch the source code can use this plugin to do so.
 Although this plugin mostly ports the menu creation process to the Plugin
 Manager parameters, it allows for a cleaner way to handle the menu command
 management process.
 
-YEP_MessageCore: While RPG Maker MV Ace certainly improved the message system a whole lot, it
+<b>YEP_MessageCore: </b>While RPG Maker MV Ace certainly improved the message system a whole lot, it
 wouldn't hurt to add in a few more features, such as name windows,
 converting textcodes to write out the icons and/or names of items, weapons,
 armours, and* more in quicker fashion. This script also gives the developer
 the ability to adjust the size of the message window during the game, give
 it a separate font, and to give the player a text fast-forward feature.
 
-YEP_MoveRouteCore: RPG Maker MV gives us a lot of various commands to use for our Move Routes.
+<b>YEP_MoveRouteCore:</b> RPG Maker MV gives us a lot of various commands to use for our Move Routes.
 However, it still imposes a lot of limitations on the system for what else
 could still be potentially useful for move route commands. This plugin will
 provide additional methods to construct move routes for your events and
 allow you to streamline the move route creation process.
 
-YEP_PatchNotes: This plugin grants your players the ability to access Patch Notes from the
+<b>YEP_PatchNotes:</b> This plugin grants your players the ability to access Patch Notes from the
 game itself. Being able to tell your players what you've changed from inside
 the game can make all the difference in the player experience. This plugin
 lets players access Patch Notes from the title screen, the main menu, or
 from a Plugin Command ran inside the game.
 
-YEP_PictureSpritesheets: In RPG Maker 2003, pictures had the ability to load spritesheets and display
+<b>YEP_PictureSpritesheets:</b> In RPG Maker 2003, pictures had the ability to load spritesheets and display
 certain frames from them at the issue of a command. Ever since then, later
 iterations of RPG Maker lacked the feature. This plugin will bring back that
 old feature and give you access to use spritesheets as pictures once more
 with complete frame control.
 
-YEP_QuestJournal: A quest journal is a very important tool provided by game developers for the
+<b>YEP_QuestJournal:</b> A quest journal is a very important tool provided by game developers for the
 players. It lists various quests, missions, and objectives that the player
 can pursue in order to progress further into the game. This can be helpful
 in reminding the player what needs to be done in the event the player can
@@ -201,7 +201,7 @@ giving out the rewards yourself manually. The purpose of this plugin is to
 simply serve as a visual record for your player to see what quests have been
 handed down to him or her.
 
-YEP_RegionEvents: There are 255 Regions you can mark on your map. You can set it so that when
+<b>YEP_RegionEvents:</b> There are 255 Regions you can mark on your map. You can set it so that when
 players step on those specific Regions, a Common Event will play each time
 they step on it. To do so, bind a Common Event's ID to the Region number in
 this plugin's parameters. It will make it so that any tile with that very
@@ -211,7 +211,7 @@ Event ID that you have marked for it.
 Keep in mind that if any common event occurs during a touch input, it will
 clear the touch input as intended by the game engine.
 
-YEP_RegionRestrictions: Not everybody wants NPC's to travel all over the place. With this plugin,
+<b>YEP_RegionRestrictions:</b> Not everybody wants NPC's to travel all over the place. With this plugin,
 you can set NPC's to be unable to move pass tiles marked by a specified
 Region ID. Simply draw out the area you want to enclose NPC's in on and
 they'll be unable to move past it unless they have Through on. Likewise,
@@ -220,7 +220,7 @@ there are regions that you can prevent the player from moving onto, too!
 A new change from the RPG Maker VX Ace version is that now there exist
 Regions that can allow players and events to always travel through.
 
-YEP_SaveCore: This plugin provides a new save interface for the player. Along with a new
+<b>YEP_SaveCore:</b> This plugin provides a new save interface for the player. Along with a new
 interface, the player can also load and delete saves straight from the menu
 itself. This will in turn make the save command from the Main Menu always
 available, but the save option within the new save menu will be enabled
@@ -229,17 +229,17 @@ the player is given more information regarding the save file including the
 the location the player saved at, the amount of gold available, and any
 variables that you want to show the player as well.
 
-YEP_SaveEventLocations: Normally in RPG Maker MV, leaving a map and returning to it will reset the
+<b>YEP_SaveEventLocations:</b> Normally in RPG Maker MV, leaving a map and returning to it will reset the
 map positions of all the events. For certain types of maps, such as puzzles,
 you would want the map to retain their locations.
 
-YEP_ScriptCallPluginCmd: Have you ever came across the odd situation where you wanted to use a
+<b>YEP_ScriptCallPluginCmd:</b> Have you ever came across the odd situation where you wanted to use a
 Plugin Command during a script call or Lunatic Mode code? This plugin will
 help facilitate the process in doing so by creating a new function for you
 to use in JavaScript that will transcribe the Plugin Command string and run
 it during a script call.
 
-YEP_SkillCore: Skills in RPG's consist of three main components: Costs, Damage, and
+<b>YEP_SkillCore:</b> Skills in RPG's consist of three main components: Costs, Damage, and
 Effects. Although not all components are required for a skill, they
 certainly make up a good chunk of it. Damage will be handled by another
 plugin, but this plugin will provide a core handling for skill costs and
@@ -249,11 +249,11 @@ This plugin also includes the ability for battlers to swap their HP, MP,
 and/or TP gauges for something different if it would fit the character
 better (for example, some classes don't use MP and/or TP).
 
-YEP_VictoryAftermath: This plugin swaps out the victory messages from the default battle system in
+<b>YEP_VictoryAftermath:</b> This plugin swaps out the victory messages from the default battle system in
 favor of more informative windows to display. Adjust the parameters to
 change the settings to fit your game.
 
-YEP_X_ActSeqPack1: The Action Sequence Pack 1 plugin is an extension plugin for Yanfly Engine
+<b>YEP_X_ActSeqPack1:</b> The Action Sequence Pack 1 plugin is an extension plugin for Yanfly Engine
 Plugins' Battle Engine Core. This extension plugin will not work without the
 main plugin.
 
@@ -261,7 +261,7 @@ This extension plugin contains the more basic functions used for customized
 action sequences on a technical scale. Here, you are able to change switches,
 operate variables, add states, change damage rates, and more.
 
-YEP_X_ActSeqPack2: The Action Sequence Pack 2 plugin is an extension plugin for Yanfly Engine
+<b>YEP_X_ActSeqPack2:</b> The Action Sequence Pack 2 plugin is an extension plugin for Yanfly Engine
 Plugins' Battle Engine Core. This extension plugin will not work without the
 main plugin.
 
@@ -269,7 +269,7 @@ This extension plugin contains the more basic functions used for customized
 action sequences on a visual scale. This plugin focuses on making battlers
 perform visual actions.
 
-YEP_X_ActSeqPack3: 
+<b>YEP_X_ActSeqPack3: </b>
 The Action Sequence Pack 3 plugin is an extension plugin for Yanfly Engine
 Plugins' Battle Engine Core. This extension plugin will not work without the
 main plugin.
@@ -278,7 +278,7 @@ This extension plugin contains the more basic functions used for customized
 action sequences on a visual scale. This plugin focuses on camera control
 and screen zooming.
 
-YEP_X_AnimatedSVEnemies: This plugin requires YEP_BattleEngineCore.
+<b>YEP_X_AnimatedSVEnemies:</b> This plugin requires YEP_BattleEngineCore.
 Make sure this plugin is located under YEP_BattleEngineCore in the
 plugin list.
 
@@ -290,8 +290,7 @@ instead of static graphics to help make your enemies appear more lively!
 If you are using YEP_X_ActSeqPack2, and would like the ability to add in
 floating enemies, place this plugin under YEP_X_ActSeqPack2 as well.
 
-YEP_X_BattleSysATB: 
-The Battle System - Active Turn Battle plugin is an extension plugin for
+<b>YEP_X_BattleSysATB:</b>  The Battle System - Active Turn Battle plugin is an extension plugin for
 Yanfly Engine Plugins' Battle Engine Core. This extension plugin will not
 work without the main plugin.
 
@@ -311,7 +310,7 @@ This is a battle system where agility plays an important factor in the
 progress of battle where higher agility values give battlers more advantage
 and lower agility values give battlers less advantage.
 
-YEP_X_BattleSysCTB: The Battle System - Charge Turn Battle plugin is an extension plugin for
+<b>YEP_X_BattleSysCTB:</b> The Battle System - Charge Turn Battle plugin is an extension plugin for
 Yanfly Engine Plugins' Battle Engine Core. This extension plugin will not
 work without the main plugin.
 
@@ -327,7 +326,7 @@ This is a battle system where agility plays an important factor in the
 progress of battle where higher agility values give battlers more advantage
 and lower agility values give battlers less advantage.
 
-YEP_X_BattleSysSTB: This plugin requires YEP_BattleEngineCore. Make sure this plugin is located
+<b>YEP_X_BattleSysSTB:</b> This plugin requires YEP_BattleEngineCore. Make sure this plugin is located
 under YEP_BattleEngineCore in the plugin list.
 
 To use the STB system, go to the Battle Engine Core plugin and change the
@@ -349,7 +348,7 @@ Because of the nature of the Standard Turn Battle System, an item or skill's
 action speed value found in the database will be disabled as it cannot push
 forward a battler's in the turn order.
 
-YEP_X_CoreUpdatesOpt: This plugin requires the following:
+<b>YEP_X_CoreUpdatesOpt:</b> This plugin requires the following:
 - YEP_CoreEngine plugin installed
 - Installing this plugin under YEP_CoreEngine
 - RPG Maker MV version base code 1.4.0 or above
@@ -371,7 +370,7 @@ Note: you will still have to download the newest Pixi libraries and to get
 things working properly with this plugin. More will be explained in this
 plugin's instructions section under the help file.
 
-YEP_X_ExtMovePack1: This plugin requires YEP_MoveRouteCore. Make sure this plugin is located
+<b>YEP_X_ExtMovePack1:</b> This plugin requires YEP_MoveRouteCore. Make sure this plugin is located
 under YEP_MoveRouteCore in the plugin list.
 
 This plugin adds extra simplified move routes for your events with the main
@@ -380,13 +379,13 @@ include the option to hug a side of the wall and move along that, moving a
 single direction until coming to a stop, relative opacity adjusting, and
 index shifting.
 
-YEP_X_ItemUpgradeSlots: This plugin requires YEP_ItemCore.
+<b>YEP_X_ItemUpgradeSlots:</b> This plugin requires YEP_ItemCore.
 Make sure this plugin is located under YEP_ItemCore in the plugin list.
 
 This plugin adds Item Upgraders, where you can select the base item and then
 apply the appropriate Item Upgraders onto it to boost its parameters.
 
-YEP_X_SkillCooldowns: This plugin requires YEP_SkillCore.
+<b>YEP_X_SkillCooldowns:</b> This plugin requires YEP_SkillCore.
 Make sure this plugin is located under YEP_SkillCore in the plugin list.
 
 This plugin allows you to give your skills cooldowns. Cooldowns are a limit
